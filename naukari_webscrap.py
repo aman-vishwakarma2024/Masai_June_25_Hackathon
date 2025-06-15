@@ -64,7 +64,6 @@ def scrape_naukri_job(job_url):
     return data
 
 if __name__ == "__main__":
-    #job_url = sys.argv[1]
     job_url = input("Paste Naukri Job URL: ").strip()
     job_data = scrape_naukri_job(job_url)
 
